@@ -21,8 +21,17 @@
 		};
 		one {
 			//PREV | PLAY/PAUSE | NEXT
+			bindings = <&kp DOWN &lt 4 ENTER &kp UP>;
+			sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
+		};
+		two {
+			//PREV | PLAY/PAUSE | NEXT
 			bindings = <&kp DOWN &lt 4 LWIN &kp UP>;
 			sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
+		};
+		three {
+			//PREV | PLAY/PAUSE | NEXT
+			bindings = <&kp C_MUTE &lt 4 F13 &kp C_PP>;
 		};
 		shift {
 			//PREV | PLAY/PAUSE | NEXT
